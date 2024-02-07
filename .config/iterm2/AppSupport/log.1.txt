@@ -1,0 +1,47 @@
+48840 586578-01-12 05:01:37.524 +0000
+1703551323.524654 PSMTabDragAssistant.m:909 (-[PSMTabDragAssistant distributePlaceholdersInTabBar:]): distributePlaceholdersInTabBar draggedCell=<PSMTabBarCell: 0x126e28550 representedObject=<NSTabViewItem 'nvim . ~/D/athenna-riot-api (nvim)': 0x600001aa4a20> identifier=<PTYTab: 0x104a0a8a0 label=nvim . ~/D/athenna-riot-api (nvim) objectCount=1> objectCount=1>
+1703551323.918864 PSMTabDragAssistant.m:650 (-[PSMTabDragAssistant finishDrag]): Drag of 0x1079379b0 finished from
+(
+	0   iTerm2                              0x0000000100577a34 -[PSMTabDragAssistant finishDrag] + 168
+	1   iTerm2                              0x0000000100577224 -[PSMTabDragAssistant reallyPerformDragOperation:] + 1740
+	2   iTerm2                              0x0000000100576b48 -[PSMTabDragAssistant performDragOperation:] + 28
+	3   iTerm2                              0x0000000100539628 -[PSMTabBarControl performDragOperation:] + 108
+	4   AppKit                              0x000000018d06b560 NSCoreDragReceiveMessageProc + 352
+	5   HIServices                          0x000000018f959a7c CallReceiveMessageCollectionWithMessage + 116
+	6   HIServices                          0x000000018f953b18 DoMultipartDropMessage + 104
+	7   HIServices                          0x000000018f9538d0 DoDropMessage + 56
+	8   HIServices                          0x000000018f952474 DragInApplication + 1004
+	9   HIServices                          0x000000018f950e74 CoreDragStartDragging + 560
+	10  AppKit                              0x000000018d069080 -[NSCoreDragManager _dragUntilMouseUp:accepted:] + 896
+	11  AppKit                              0x000000018d36bb4c _handleBeginDraggingSession + 96
+	12  CoreFoundation                      0x00000001896030cc __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 36
+	13  CoreFoundation                      0x0000000189602fb8 __CFRunLoopDoObservers + 532
+	14  CoreFoundation                      0x0000000189601bd0 CFRunLoopRunSpecific + 516
+	15  HIToolbox                           0x0000000193b5a448 RunCurrentEventLoopInMode + 292
+	16  HIToolbox                           0x0000000193b5a0d8 ReceiveNextEventCommon + 220
+	17  HIToolbox                           0x0000000193b59fdc _BlockUntilNextEventMatchingListInModeWithFilter + 76
+	18  AppKit                              0x000000018cddcf90 _DPSNextEvent + 660
+	19  AppKit                              0x000000018d5b0b94 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 716
+	20  AppKit                              0x000000018cdd043c -[NSApplication run] + 476
+	21  AppKit                              0x000000018cda7708 NSApplicationMain + 880
+	22  iTerm2                              0x000000010052a394 main + 132
+	23  dyld                                0x00000001891ad058 start + 2224
+)
+1703551323.932663 PSMTabDragAssistant.m:650 (-[PSMTabDragAssistant finishDrag]): Drag of 0x0 finished from
+(
+	0   iTerm2                              0x0000000100577a34 -[PSMTabDragAssistant finishDrag] + 168
+	1   AppKit                              0x000000018d0691e8 -[NSCoreDragManager _dragUntilMouseUp:accepted:] + 1256
+	2   AppKit                              0x000000018d36bb4c _handleBeginDraggingSession + 96
+	3   CoreFoundation                      0x00000001896030cc __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 36
+	4   CoreFoundation                      0x0000000189602fb8 __CFRunLoopDoObservers + 532
+	5   CoreFoundation                      0x0000000189601bd0 CFRunLoopRunSpecific + 516
+	6   HIToolbox                           0x0000000193b5a448 RunCurrentEventLoopInMode + 292
+	7   HIToolbox                           0x0000000193b5a0d8 ReceiveNextEventCommon + 220
+	8   HIToolbox                           0x0000000193b59fdc _BlockUntilNextEventMatchingListInModeWithFilter + 76
+	9   AppKit                              0x000000018cddcf90 _DPSNextEvent + 660
+	10  AppKit                              0x000000018d5b0b94 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 716
+	11  AppKit                              0x000000018cdd043c -[NSApplication run] + 476
+	12  AppKit                              0x000000018cda7708 NSApplicationMain + 880
+	13  iTerm2                              0x000000010052a394 main + 132
+	14  dyld                                0x00000001891ad058 start + 2224
+)
