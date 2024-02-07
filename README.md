@@ -31,7 +31,3 @@ This repository exposes configurations for:
 - [nvim](https://neovim.io/)
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [VSCode](https://code.visualstudio.com/)
-
-<p align='center'>
-  With 💜 by <a href='https://github.com/jlenon7'>jlenon7</a>
-</p>
