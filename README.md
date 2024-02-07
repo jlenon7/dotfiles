@@ -19,8 +19,6 @@
 
 <img src=".github/logo.png" width="200px" align="right" hspace="30px" vspace="100px">
 
----
-
 ## Configurations
 
 This repository exposes configurations for:
