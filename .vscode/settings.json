@@ -362,7 +362,8 @@
     ".monaco-workbench .part.panel.bottom .composite.title": "height: 10px !important;",
     ".monaco-workbench .part>.title": "height: 18px !important;",
     ".monaco-sash.vertical": "height: 0 !important;",
-    ".monaco-editor .find-widget": "border-radius: 2px !important;"
+    ".monaco-list-row": "border-radius: 4px !important;",
+    ".monaco-editor .find-widget": "border-radius: 4px !important;"
   },
   "apc.imports": [
     "file:///Users/jlenon7/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
