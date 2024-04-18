@@ -56,7 +56,7 @@ return {
 	{
 		"rcarriga/nvim-notify",
 		opts = {
-			timeout = 5000,
+			timeout = 2000,
 		},
 	},
 
@@ -85,18 +85,6 @@ return {
 				-- separator_style = "slant",
 				show_buffer_close_icons = false,
 				show_close_icon = false,
-			},
-		},
-	},
-
-	-- statusline
-	{
-		"nvim-lualine/lualine.nvim",
-		event = "VeryLazy",
-		opts = {
-			options = {
-				-- globalstatus = false,
-				theme = "solarized_dark",
 			},
 		},
 	},

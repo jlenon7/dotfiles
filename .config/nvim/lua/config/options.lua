@@ -1,10 +1,15 @@
 vim.g.mapleader = " "
+vim.g.indentLine_enabled = 0
 
-vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 vim.opt.number = true
+
+-- Disable vertical indent line
+vim.opt_local.nu = false
+vim.opt.relativenumber = false
+vim.opt.list = false
 
 vim.opt.title = true
 vim.opt.autoindent = true
