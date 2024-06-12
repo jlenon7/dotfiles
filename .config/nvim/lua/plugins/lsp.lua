@@ -41,10 +41,11 @@ return {
 						return require("lspconfig.util").root_pattern(".git")(...)
 					end,
 				},
+        ---@type lspconfig.options.tsserver
 				tsserver = {
-					root_dir = function(...)
-						return require("lspconfig.util").root_pattern(".git")(...)
-					end,
+					-- root_dir = function(...)
+					-- 	return require("lspconfig.util").root_pattern(".git")(...)
+					-- end,
 					single_file_support = false,
 					settings = {
 						typescript = {
