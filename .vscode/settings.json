@@ -1,4 +1,4 @@
-{ 
+{
   "codesnap.backgroundColor": "none",
   "codesnap.roundedCorners": false,
   "codesnap.target": "window",
@@ -30,42 +30,67 @@
     "athenna",
     "athennarc",
     "bootcamp",
+    "brandonkirbyson",
+    "callsite",
     "chakra",
     "checkin",
     "checkins",
     "clsx",
     "Codegen",
+    "codesnap",
     "configurer",
+    "Convolutional",
+    "cosj",
     "criterias",
     "datadog",
     "Datetime",
     "davi",
     "dayjs",
+    "deadletter",
     "Dont",
     "Dotenv",
     "dracula",
     "dtos",
     "duplicatedsummoner",
     "Elgato",
+    "endcomponent",
     "esbuild",
+    "execa",
+    "Execa",
     "fakerank",
     "fakeriotapi",
     "fastify",
     "Fastify",
+    "filematch",
+    "formbody",
+    "Hcfyz",
     "httpgateway",
     "huseyin",
     "ilike",
+    "jlenon",
+    "keras",
+    "Keras",
     "lenon",
+    "LFPZ",
+    "LOSUN",
+    "magicast",
     "middlewares",
     "mirakl",
+    "mnist",
+    "Mnist",
     "monaco",
     "nestjs",
     "netsuite",
     "Netsuite",
     "networkidle",
+    "NNUSDQ",
+    "nocheck",
+    "nosql",
+    "notfound",
     "openapi",
     "orderstatus",
     "pipefy",
+    "pipenv",
     "POSHMARK",
     "postgres",
     "postgresql",
@@ -78,15 +103,27 @@
     "returnstatus",
     "returnupdateaction",
     "riotapi",
+    "RMLO",
     "roboto",
+    "roleuser",
     "rtracer",
     "sqlite",
+    "stylesheet",
     "tailwindcss",
     "tscpaths",
+    "txsoura",
     "unmark",
     "upsert",
+    "useremail",
+    "useremailpassword",
+    "userlang",
+    "userpassword",
+    "userstatus",
+    "vinejs",
     "volodymyr",
+    "vscodevim",
     "winrate",
+    "Xnhk",
     "youch",
     "Zenvia"
   ],
@@ -102,7 +139,7 @@
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
-  }, 
+  },
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
     "*.module.ts": "nest",
@@ -112,17 +149,13 @@
     "vitest.config.e2e.ts": "vite",
     ".env.example": "gear"
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
   "animations.Install-Method": "Apc Customize UI++",
   "console-ninja.featureSet": "Community",
-  "update.mode": "start",
+  "update.mode": "default",
   "update.showReleaseNotes": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "security.promptForLocalFileProtocolHandling": false,  
+  "security.promptForLocalFileProtocolHandling": false,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -134,38 +167,21 @@
   "vim.visualModeKeyBindings": [],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "K"
-      ],
-      "commands": [
-        "editor.action.showHover"
-      ],
+      "before": ["K"],
+      "commands": ["editor.action.showHover"],
       "silent": true
     },
     {
-      "before": [
-        "<tab>"
-      ],
-      "commands": [
-        "workbench.action.nextEditor"
-      ]
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
     },
     {
-      "before": [
-        "<s-tab>"
-      ],
-      "commands": [
-        "workbench.action.previousEditor"
-      ]
+      "before": ["<s-tab>"],
+      "commands": ["workbench.action.previousEditor"]
     },
     {
-      "before": [
-        ";",
-        "f"
-      ],
-      "commands": [
-        "workbench.action.findInFiles"
-      ]
+      "before": [";", "f"],
+      "commands": ["workbench.action.findInFiles"]
     }
   ],
   "vim.leader": "<space>",
@@ -182,7 +198,7 @@
   "workbench.productIconTheme": "fluent-icons",
   "workbench.activityBar.location": "hidden",
   "workbench.editor.empty.hint": "hidden",
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.iconTheme": "symbols",
   "workbench.tree.renderIndentGuides": "none",
   "workbench.sideBar.location": "left",
@@ -201,8 +217,9 @@
     "list.inactiveSelectionBackground": "#231739",
     "list.focusBackground": "#231739",
     "list.hoverBackground": "#231739",
-    "terminalCursor.foreground": "#C45DFF",
+    "terminalCursor.foreground": "#C45DFF"
   },
+  "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.defaultModel": "outlineModel",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -244,6 +261,9 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -254,7 +274,7 @@
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": false,
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
     "package.json": ".eslint*, prettier*, tsconfig*, vite*, package-lock*, yarn.lock, pnpm-lock*, bun.lockb, nest*",
@@ -270,11 +290,11 @@
   "git.decorations.enabled": false,
   "scm.diffDecorations": "none",
   "files.exclude": {
-    "**\/CVS": true,
-    "**\/.DS_Store": true,
-    "**\/.hg": true,
-    "**\/.svn": true,
-    "**\/.git": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
     ".vscode": true
     // "node_modules": true
   },
@@ -289,7 +309,7 @@
     "vscodevim.vim": 1
   },
   "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "Dank Mono, JetBrainsMono Nerd Font",
@@ -297,7 +317,7 @@
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
-  }, 
+  },
   "apc.header": {
     "height": 36
   },
@@ -310,15 +330,12 @@
   },
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
-    // Activate only when recording "opacity": 0.90
+    "transparent": true,
+    "vibrancy": "light"
   },
   "apc.font.family": "Inter",
   "apc.listRow": {
-    "lists": [
-      "explorer-folders-view",
-      "quick-input-list",
-      "results"
-    ],
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 30
   },
   "apc.stylesheet": {
@@ -340,12 +357,16 @@
     ".sidebar .pane-body": "padding: 16px !important;",
     ".monaco-workbench .part.panel.bottom .composite.title": "height: 10px !important;",
     ".monaco-workbench .part>.title": "height: 18px !important;",
+    ".monaco-workbench .part": "background-color: #00000000 !important;",
     ".monaco-sash.vertical": "height: 0 !important;",
     ".monaco-list-row": "border-radius: 4px !important;",
-    ".monaco-editor .find-widget": "border-radius: 4px !important;"
+    ".monaco-editor .find-widget": "border-radius: 4px !important;",
+    ".monaco-scrollable-element > .visible": "opacity: 0;",
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title.title-border-bottom:after": "background-color: #181521"
   },
   "apc.imports": [
     "file:///Users/jlenon7/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
   ],
-  "window.newWindowDimensions": "inherit"
+  "window.newWindowDimensions": "inherit",
+  "terminal.integrated.inheritEnv": true
 }
