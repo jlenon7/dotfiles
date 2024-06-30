@@ -5,6 +5,29 @@
 # athennafish git:push common
 # ```
 function _athennafish_git_push 
+    if test $argv[1] = "all" 
+      echo "pushing all athenna repositories"
+
+      athennafish git:push Cli
+      athennafish git:push Common
+      athennafish git:push Config
+      athennafish git:push Core
+      athennafish git:push Database
+      athennafish git:push Docs
+      athennafish git:push Http
+      athennafish git:push Ioc
+      athennafish git:push Logger
+      athennafish git:push Mail
+      athennafish git:push Queue
+      athennafish git:push Template
+      athennafish git:push Test
+      athennafish git:push Tsconfig
+      athennafish git:push Validator
+      athennafish git:push View
+
+      return
+    end
+
     echo "pushing @athenna/$argv[1] repository"
 
     cd ~/Development/Athenna/$argv[1]

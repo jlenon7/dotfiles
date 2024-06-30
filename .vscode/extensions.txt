@@ -40,3 +40,4 @@ dracula-theme-pro.theme-dracula-pro
 sibiraj-s.vscode-scss-formatter
 mrmlnc.vscode-scss
 unifiedjs.vscode-mdx
+tamasfe.even-better-toml

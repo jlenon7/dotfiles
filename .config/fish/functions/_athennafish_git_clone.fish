@@ -5,7 +5,9 @@
 # athennafish git:clone common
 # ```
 function _athennafish_git_clone
-    if not set -q argv[1]
+    if test $argv[1] = "all"
+      echo "clonning all athenna repositories"
+
       athennafish git:clone Cli
       athennafish git:clone Common
       athennafish git:clone Config
@@ -22,16 +24,18 @@ function _athennafish_git_clone
       athennafish git:clone Tsconfig
       athennafish git:clone Validator
       athennafish git:clone View
-    else
-      cd ~/Development/Athenna
-
-      if not git clone --quiet git@github.com:AthennaIO/$argv[1].git
-        cd $PWD
-        echo "failed to clone @athenna/$argv[1] repository"
-        exit
-      end
-
-      cd $PWD
-      echo "successfully clonned @athenna/$argv[1] repository"
+      return
     end
+
+    echo "clonning @athenna/$argv[1] repository"
+    cd ~/Development/Athenna
+
+    if not git clone --quiet git@github.com:AthennaIO/$argv[1].git
+      cd $PWD
+      echo "failed to clone @athenna/$argv[1] repository"
+      exit
+    end
+
+    cd $PWD
+    echo "successfully clonned @athenna/$argv[1] repository"
 end
