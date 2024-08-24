@@ -27,6 +27,7 @@
   ],
   "cSpell.userWords": [
     "apikeyexpired",
+    "arkcolossals",
     "athenna",
     "athennarc",
     "auditlog",
@@ -100,12 +101,15 @@
     "lenon",
     "LFPZ",
     "lifecycler",
+    "listcontainer",
     "logpush",
+    "logssrs",
     "loki",
     "LOSUN",
     "magicast",
     "middlewares",
     "mirakl",
+    "mistralai",
     "mnist",
     "Mnist",
     "modelid",
@@ -123,6 +127,7 @@
     "openapi",
     "openrouter",
     "orderstatus",
+    "Parens",
     "pipefy",
     "pipenv",
     "POSHMARK",
@@ -147,6 +152,8 @@
     "stylesheet",
     "tailwindcss",
     "tanstack",
+    "thecenter",
+    "timmings",
     "tritonserver",
     "tscpaths",
     "tsdb",
@@ -154,6 +161,8 @@
     "typegen",
     "ulidx",
     "unmark",
+    "unsolve",
+    "Unsolve",
     "upsert",
     "useremail",
     "useremailpassword",
@@ -229,19 +238,21 @@
     {
       "before": ["F"],
       "commands": ["workbench.action.findInFiles"]
-    },
+    }, 
     {
       "before": ["<C-f>"],
       "commands": ["actions.find"]
     },
     {
-      "before": ["s", "f"],
-      "commands": ["workbench.view.explorer"]
+      "before" : ["s", "f"],
+      "commands" : [
+        "workbench.view.explorer"
+      ]
     },
     {
       "before": ["<C-a>"],
       "after": ["g", "g", "v", "G"]
-    }
+    } 
   ],
   "vim.leader": "<space>",
   "window.zoomLevel": 2,
@@ -413,6 +424,10 @@
     ".monaco-sash .mac .horizontal": "display: none !important",
     ".monaco-scrollable-element > .shadow.top": "display: none !important",
     ".pane-header .extension-view-header .expanded div": "background-color: var(--vscode-editor-background) !important",
+    ".monaco-list.list_id_18 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
+    ".monaco-list.list_id_17 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
+    ".monaco-list.list_id_16 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
+    ".monaco-list.list_id_15 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
     ".monaco-list.list_id_14 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
     ".monaco-list.list_id_13 .monaco-list-rows": "background: var(--vscode-editor-background) !important",
     ".monaco-list.list_id_12 .monaco-list-rows": "background: var(--vscode-editor-background) !important",

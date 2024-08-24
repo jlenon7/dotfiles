@@ -12,6 +12,7 @@ function _athennafish_npm_uninstall
       athennafish npm:uninstall Common $argv[2]
       athennafish npm:uninstall Config $argv[2]
       athennafish npm:uninstall Core $argv[2]
+      athennafish npm:uninstall Cron $argv[2]
       athennafish npm:uninstall Database $argv[2]
       athennafish npm:uninstall Docs $argv[2]
       athennafish npm:uninstall Http $argv[2]
