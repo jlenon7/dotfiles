@@ -198,7 +198,7 @@ function athennafish --description "Internal helpers for Athenna project managem
             git pull --quiet origin http
             athennafish npm:update athennaio
             athennafish npm:run athennaio "test"
-            git add -A
+            git add --quiet -A
             git commit --quiet -m "chore(npm): update dependencies"
             git push --quiet origin http
             
@@ -207,7 +207,7 @@ function athennafish --description "Internal helpers for Athenna project managem
             git pull --quiet origin http-slim
             athennafish npm:update athennaio
             athennafish npm:run athennaio "test"
-            git add -A
+            git add --quiet -A
             git commit --quiet -m "chore(npm): update dependencies"
             git push --quiet origin http-slim
 

@@ -8,6 +8,7 @@ function _athennafish_git_clone
     if test $argv[1] = all
         echo "clonning all athenna repositories"
 
+        athennafish git:clone AthennaIO
         athennafish git:clone Cli
         athennafish git:clone Common
         athennafish git:clone Config

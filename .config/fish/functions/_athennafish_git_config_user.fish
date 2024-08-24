@@ -8,6 +8,7 @@ function _athennafish_git_config_user
     if test $argv[1] = all
         echo "configuring user for all athenna repositories"
 
+        athennafish git:clone AthennaIO
         athennafish git:config:user Cli
         athennafish git:config:user Common
         athennafish git:config:user Config
