@@ -1,6 +1,8 @@
 if type -q eza
-  alias ll "eza -l -g --icons"
-  alias lla "ll -a"
+    alias ll "eza -l -g --icons"
+    alias lla "ll -a"
+    alias ip "dig +short myip.opendns.com @resolver1.opendns.com"
+    alias localip "ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'"
 end
 
 # Inkdrop
