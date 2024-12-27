@@ -13,6 +13,7 @@ function _athennafish_npm_run
       athennafish npm:run Common $argv[2]
       athennafish npm:run Config $argv[2]
       athennafish npm:run Core $argv[2]
+      athennafish npm:run Cron $argv[2]
       athennafish npm:run Database $argv[2]
       athennafish npm:run Docs $argv[2]
       athennafish npm:run Http $argv[2]

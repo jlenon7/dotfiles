@@ -21,6 +21,7 @@ function _athennafish_npm_install
         athennafish npm:install Common $argv[2] --save-dev
         athennafish npm:install Config $argv[2] --save-dev
         athennafish npm:install Core $argv[2] --save-dev
+        athennafish npm:install Cron $argv[2] --save-dev
         athennafish npm:install Database $argv[2] --save-dev
         athennafish npm:install Docs $argv[2] --save-dev
         athennafish npm:install Http $argv[2] --save-dev
@@ -41,6 +42,7 @@ function _athennafish_npm_install
       athennafish npm:install Common $argv[2]
       athennafish npm:install Config $argv[2]
       athennafish npm:install Core $argv[2]
+      athennafish npm:install Cron $argv[2]
       athennafish npm:install Database $argv[2]
       athennafish npm:install Docs $argv[2]
       athennafish npm:install Http $argv[2]
@@ -60,7 +62,8 @@ function _athennafish_npm_install
     echo "installing $argv[2] libraries in @athenna/$argv[1]"
     cd ~/Development/Athenna/$argv[1]
 
-    for pkg in (string split " " $argv[2])
+    if set -q $argv[2]
+      for pkg in (string split " " $argv[2])
         if set --query dev
           if not npm --silent install $pkg --save-dev
               cd $PWD
@@ -72,8 +75,17 @@ function _athennafish_npm_install
             echo "failed to install library $pkg in @athenna/$argv[1]"
           end
         end
-    end
+      end
 
-    cd $PWD
-    echo "successfully installed library $pkg in @athenna/$argv[1]"
+      cd $PWD
+      echo "successfully installed library $pkg in @athenna/$argv[1]"
+    else
+      if not npm --silent install 
+        cd $PWD
+        echo "failed to install dependencies in @athenna/$argv[1]"
+      end
+
+      cd $PWD
+      echo "successfully installed dependencies in @athenna/$argv[1]"
+    end
 end

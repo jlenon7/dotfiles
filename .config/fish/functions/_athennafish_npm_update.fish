@@ -16,6 +16,7 @@ function _athennafish_npm_update
       athennafish npm:update Common $argv[2]
       athennafish npm:update Config $argv[2]
       athennafish npm:update Core $argv[2]
+      athennafish npm:update Cron $argv[2]
       athennafish npm:update Database $argv[2]
       athennafish npm:update Docs $argv[2]
       athennafish npm:update Http $argv[2]
